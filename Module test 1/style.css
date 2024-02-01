@@ -1,0 +1,119 @@
+*{
+    background-color: rgba(140, 196, 97, 1);
+}
+.container1{
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    border:6px;
+    border-radius: 17px;
+    border-color: white;
+    border-style: solid;
+    padding: 1rem 1.4rem 1rem 2rem;
+}
+.header{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.yscore{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    font-family:'Roboto',sans-serif;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 100%;
+}
+.cscore{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    font-family:'Roboto',sans-serif;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 150px;
+    height: 100%;
+    
+}
+.compscore{
+    font-size: 17px;
+    font-weight: 700;
+}
+.yourscore{
+    font-size: 17px;
+    font-weight: 700;
+}
+.cinnum{
+    font-size: 100px;
+    font-weight: 700;
+}
+.yinnum{
+    font-size: 100px;
+    font-weight: 700;
+}
+.choiceRock{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 50%;
+    place-items: center;
+    border: solid rgba(0, 116, 182, 1);
+    border-width: 25px;
+    line-height: 12px;
+  
+}
+.choiceScissors{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 50%;
+    place-items: center;
+    border: solid rgba(189, 0, 255, 1);
+    border-width: 25px;
+  
+}
+.choicePaper{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+    border-radius: 50%;
+    place-items: center;
+    border: solid rgba(255, 169, 67, 1);
+    border-width: 25px;
+  
+}
+.line1{
+    position: absolute;
+    left: 50%;
+    top:40% ;
+    max-width: 30%;
+}
+.line2{
+    position: absolute;
+    left: 58%;
+    top: 53%;
+}
+.line3{
+    position: absolute;
+    top: 53%;
+    left:45%;
+}
