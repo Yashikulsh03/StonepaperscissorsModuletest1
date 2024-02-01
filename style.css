@@ -349,6 +349,7 @@ body {
   background: none;
   cursor: pointer;
   color: black;
+  background-color: black;
 }
 .rules-img {
   padding: 2rem 4rem;
